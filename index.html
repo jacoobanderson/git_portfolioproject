@@ -11,7 +11,7 @@
     
     <nav class="menu">
         <header><h2>Jacob Andersson</h2></header>
-            <a href="#contact">Contact</a>
+            <a href="/contactpage.html">Contact</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#about">About Me</a>
@@ -24,7 +24,7 @@
             <h2 id="about">About Me</h2>
 
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, nunc luctus tristique blandit, odio tellus tristique diam, eget maximus mi mauris at purus. Quisque sit amet felis euismod, aliquet neque ac, facilisis mi. Cras rutrum commodo tempor. Cras quis est quis urna vulputate vestibulum. Curabitur risus est, eleifend eu dolor sed, pellentesque imperdiet tortor. Praesent aliquam nulla vitae lacus feugiat fermentum. Suspendisse lorem tellus, commodo rhoncus risus nec, aliquet rhoncus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque tortor. Fusce sed augue et dui sagittis lacinia.
+            <p id="newc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, nunc luctus tristique blandit, odio tellus tristique diam, eget maximus mi mauris at purus. Quisque sit amet felis euismod, aliquet neque ac, facilisis mi. Cras rutrum commodo tempor. Cras quis est quis urna vulputate vestibulum. Curabitur risus est, eleifend eu dolor sed, pellentesque imperdiet tortor. Praesent aliquam nulla vitae lacus feugiat fermentum. Suspendisse lorem tellus, commodo rhoncus risus nec, aliquet rhoncus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque tortor. Fusce sed augue et dui sagittis lacinia.
 
                 Cras placerat eros ut diam placerat, a imperdiet libero iaculis. Curabitur purus libero, congue sed elit vel, auctor consectetur massa. Maecenas justo ligula, vulputate sed rutrum a, viverra ac risus. Quisque sollicitudin vestibulum lacus, nec ornare dui egestas at. Curabitur fermentum ante eget suscipit sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a leo tellus. Morbi cursus, tellus vel accumsan maximus, purus justo varius risus, et cursus quam nunc vitae velit. Nulla pulvinar ex at velit hendrerit pretium.
                 
@@ -32,6 +32,13 @@
 
             <img src="https://cdn.pixabay.com/photo/2017/07/15/22/07/library-2507902__340.jpg" class="portrait">
             
+            <button onclick="changeColor('blue');">Blue</button>
+            <button onclick="changeColor('red');">Red</button>
+            <button onclick="changeColor('black');">Regular</button>
+
+            <!-- A test with javascript where i used newc as an id
+            at paragraph and then added three buttons with the 
+            javascript function to change color of that paragraph (newc)-->
 
         </section>
 
@@ -84,10 +91,15 @@
                 <li>JavaScript</li>
                 <li>Git</li>    
             </ul>
+
         </section>
 
     </main>
     <footer>Made by Jacob Anderson</footer>
+
+    <script src="./script.js">
+    </script>
+    
 </body>
 
 

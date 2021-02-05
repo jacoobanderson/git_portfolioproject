@@ -23,6 +23,9 @@ text decoration och float right för att flytta a till höger i nav*/
     text-decoration: none;
     float:right;
     margin: 16.6px 15px 16.6px 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /*VIKTIGT MATCHA MARGINS PÅ .MENU H2 OCH A FÖR ATT CENTRERA DEM
@@ -31,6 +34,10 @@ I MENU (VERTIKALT)*/
 .menu h2 {
     float: left;
     margin: 16.6px 15px 16.6px 15px;
+    font-family: "Proza Libre", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 
 /*VIKTIGT, problemet var att lösa hur jag skulle få h2 och a på samma
@@ -66,5 +73,12 @@ positioneras på det sättet du vill */
 
 .sectiontwo {
     clear: both;
+}
+
+
+/* contact page CSS*/
+
+.contactsection {
+    margin-left: 15px;
 }
 
