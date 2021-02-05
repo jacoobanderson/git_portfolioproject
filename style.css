@@ -1,0 +1,70 @@
+
+/* margin 0 gör att navbaren täcker hela width och top*/
+
+body {
+    margin: 0;
+}
+
+/* inline block gör att hela menu klassen blir ett 
+block men fortf inline, 100% på width gör att blocket 
+täcker hela bredden*/
+
+.menu {
+    display: inline-block;
+    width: 100%;
+}
+
+/*klass menu - a och h2 samma värden, margin leftright ger lika 
+mellanrum mellan elements(orden) font size samma storlek, ingen
+text decoration och float right för att flytta a till höger i nav*/
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    float:right;
+    margin: 16.6px 15px 16.6px 15px;
+}
+
+/*VIKTIGT MATCHA MARGINS PÅ .MENU H2 OCH A FÖR ATT CENTRERA DEM
+I MENU (VERTIKALT)*/
+
+.menu h2 {
+    float: left;
+    margin: 16.6px 15px 16.6px 15px;
+}
+
+/*VIKTIGT, problemet var att lösa hur jag skulle få h2 och a på samma
+linje och centrerade i mitten vertikalt på naven, jag kollade på inspect
+för att se margins på h2 och matchade sedan dessa på .menu a */
+
+
+/*Eftersom jag har float right och left måste jag ha clear both så
+att det inte krockar och förstör upplägget */
+
+.sectionone {
+    clear: both;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/*VIKTIGT - kolla på margins för att se hur stora blocken är och
+det kan vara därför float right och float left inte fungerar som
+det ska, använd inspect för att få blocken att passa in så det 
+positioneras på det sättet du vill */
+
+.sectionone p {
+    width: 45%;
+    margin-top: 0;
+    float: left;    
+
+}
+.sectionone img {
+    float: right;
+    width: 45%;
+}
+
+.sectiontwo {
+    clear: both;
+}
+
